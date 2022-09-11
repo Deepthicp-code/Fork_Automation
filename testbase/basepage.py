@@ -19,7 +19,7 @@ class BasePageTestCase(unittest.TestCase):
         if(self.br.lower() == 'chrome'):
             chrome_options = webdriver.ChromeOptions()
             chrome_options.add_argument("--incognito")
-            chrome_options.add_argument("--headless")
+            #chrome_options.add_argument("--headless")
             self.browser = webdriver.Chrome(options=chrome_options)
             self.browser.maximize_window()
         elif(self.br.lower() == 'firefox'):
