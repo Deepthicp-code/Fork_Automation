@@ -1,11 +1,11 @@
-# Browserstack-scripts
+# Automation-scripts
 
-## Automated test scripts using selenium IDE
-Automated test scripts for lead forms on different landing pages. All tests are recorded using selenium IDE without writing the actual code.
+## Automated test scripts using selenium 
+Automated test scripts for testing of creating an account for the FORK and validating the personal information
 
 ### Installation:
 Refer the below url for referenece
-https://www.selenium.dev/selenium-ide/docs/en/introduction/getting-started
+[https://www.selenium.dev/selenium-ide/docs/en/introduction/getting-started](https://selenium-python.readthedocs.io/installation.html)
 
 #### Requirements
 
