@@ -19,7 +19,6 @@ class Login():
 
     def check_login_page(self):
         self.browser.get(self.url)
-        time.sleep(30)
         self.browser.maximize_window()
         acceptcookies=self.browser.find_element("xpath","//*[@id='_evidon-accept-button']")
         self.browser.execute_script("arguments[0].click();", acceptcookies)
